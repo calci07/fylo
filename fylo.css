@@ -1,0 +1,472 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin-right: 60px;
+  margin-top: 40px;
+}
+
+body {
+  top: 0%;
+  overflow-x: hidden;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+.text-left {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.first {
+  font-family: "Raleway", sans-serif;
+  margin-right: 650px;
+  margin-left: 60px;
+  font-size: 30px;
+}
+
+.second {
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  margin-right: 690px;
+  margin-left: 60px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.enter {
+  margin-left: 60px;
+}
+
+.email {
+  width: 250px;
+  padding: 8px;
+}
+
+.started {
+  width: 160px;
+  margin-left: 10px;
+  color: white;
+  cursor: pointer;
+  background: hsl(224, 93%, 58%);
+  border-radius: 3px;
+  border-color: hsl(224, 93%, 58%);
+}
+
+.started:hover {
+  opacity: 0.7;
+}
+
+.enter {
+  display: flex;
+  border-radius: 3px;
+}
+
+.illus1 {
+  display: flex;
+  position: absolute;
+  right: -250px;
+  top: -90px;
+  scale: 0.4;
+}
+
+.navi li {
+  display: inline;
+  margin-left: 25px;
+}
+
+.main-nav {
+  text-align: right;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.cont {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: -260px;
+  bottom: -150px;
+}
+
+.curve {
+  position: relative;
+  height: 700px;
+  width: 100%;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  background-color: #f9f8fe;
+  bottom: -310px;
+}
+
+.bot {
+  position: relative;
+  left: 320px;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+}
+
+.bot1 {
+  position: relative;
+  left: 320px;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  padding-right: 100px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-right: 700px;
+}
+.bot2 {
+  position: relative;
+  left: 320px;
+  margin-right: 800px;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+
+  margin-bottom: 15px;
+}
+
+.bot3 {
+  position: relative;
+  left: 320px;
+
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  padding-right: 630px;
+  color: green;
+}
+
+.line {
+  position: relative;
+  width: 150px;
+  height: 0.5px;
+
+  left: 320px;
+  margin-top: -5px;
+
+  background-color: green;
+  opacity: 1;
+}
+
+.arrow {
+  position: relative;
+  width: 10px;
+  right: -460px;
+  top: -12px;
+}
+
+.illus2 {
+  display: flex;
+  position: absolute;
+  right: -250px;
+  top: -100px;
+  scale: 0.4;
+}
+
+.box {
+  height: 170px;
+  width: 308px;
+  padding-top: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 1px 1px 15px 1px hsl(220, 15%, 80%);
+  position: relative;
+  left: 320px;
+  bottom: -50px;
+  transition: all 0.2s ease-in-out;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.avatar {
+  position: relative;
+  bottom: -10px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.kyle {
+  position: relative;
+  top: -20px;
+  right: -40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 15px;
+}
+
+.founder {
+  font-size: 8px;
+}
+
+.purple {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background-color: hsl(238, 22%, 44%);
+  bottom: -300px;
+  color: white;
+}
+
+.content-purple {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  left: 60px;
+
+  padding-top: 100px;
+
+  font-family: "Raleway", sans-serif;
+}
+
+.early {
+  padding-bottom: 20px;
+}
+
+.minute {
+  padding-right: 770px;
+}
+
+.email-bot {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  right: -770px;
+  top: -110px;
+}
+
+.enter-bot {
+  padding: 8px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border-color: white;
+}
+
+.started-bot {
+  width: 190px;
+  padding: 8px;
+  border-radius: 3px;
+  background: hsl(224, 93%, 58%);
+
+  border-color: hsl(224, 93%, 58%);
+  color: white;
+  cursor: pointer;
+}
+
+.started-bot:hover {
+  opacity: 0.7;
+}
+
+.foot {
+  height: 600px;
+  width: 100%;
+  background-color: hsl(243, 87%, 12%);
+  color: white;
+}
+
+.logo2 {
+  position: relative;
+  bottom: -300px;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.icons {
+  position: relative;
+  bottom: -325px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.ph {
+  margin-left: 15px;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+}
+
+.email-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.eml {
+  margin-left: 15px;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+}
+
+.about p {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: "Raleway", sans-serif;
+  bottom: -265px;
+  right: -38%;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.contact p {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  bottom: -150px;
+  right: -58%;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.fti img {
+  position: relative;
+  right: -78%;
+  width: 20px;
+  bottom: -63px;
+  margin: 3px;
+}
+
+@media only screen and (max-width: 400px) {
+  header {
+    position: relative;
+    margin-top: 20px;
+    margin-right: 25px;
+    left: -100px;
+  }
+
+  body {
+    width: 375px;
+  }
+
+  nav li {
+    display: flex;
+    margin: -10px;
+
+    font-size: 9px;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0;
+    left: -45px;
+    margin-top: 10px;
+    margin-left: 15px;
+    scale: 0.4;
+  }
+
+  .illus1 {
+    display: flex;
+    position: relative;
+    left: -437px;
+    top: -250px;
+    margin-left: 25px;
+    margin-right: 25px;
+    scale: 0.2;
+  }
+
+  .first {
+    flex-direction: column;
+    position: relative;
+    margin-right: 60px;
+    font-size: 20px;
+    margin-left: 60px;
+    left: -11.5%;
+    top: -640px;
+    text-align: center;
+  }
+
+  .second {
+    flex-direction: column;
+    position: relative;
+    margin-right: 60px;
+    font-size: 10px;
+    margin-left: 60px;
+    left: -11.5%;
+    top: -640px;
+    text-align: center;
+  }
+
+  .enter {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding-top: 20px;
+    top: -100px;
+    left: -18%;
+  }
+
+  .email {
+    position: relative;
+
+    margin-right: 60px;
+    margin-left: 60px;
+    top: -550px;
+
+    width: 200px;
+
+    margin-bottom: 10px;
+    padding: 7px;
+    border-color: gray;
+    border-radius: 3px;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .started {
+    position: relative;
+    margin-right: 60px;
+    margin-left: 60px;
+    top: -550px;
+
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background: hsl(224, 93%, 58%);
+    border-radius: 3px;
+    border-color: hsl(224, 93%, 58%);
+    padding: 5px;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .started::after {
+    opacity: 0.7;
+  }
+
+  .main-nav {
+    cursor: pointer;
+  }
+
+  .curve {
+    position: relative;
+    top: -550px;
+    height: 200px;
+    width: 100%;
+  }
+}
